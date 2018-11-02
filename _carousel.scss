@@ -1,39 +1,47 @@
 #carousel{
   display: flex;
-  justify-content:center;
-  flex-direction:column-reverse;
   width: 100%;
 
 
-  ol{
-    list-style:circle;
-  }
+  button {
+    background-color: inherit;
+    color: white;
+    border-style: hidden;
+    margin-top: 3.9;
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0.83);
+
+
+    }
   div{
     display: flex;
-    color: white;
-    //overflow: hidden;
+    overflow: hidden;
+    flex-shrink: 0;
+    width: 90%;
+    border-style: hidden;
+
     div{
       display: flex;
+      justify-content: flex-end;
       flex-direction: column;
-      flex-shrink: 0;
       text-align: center;
-      width:100%;
-      height: 50vw;
+      width: 100%;
+      height: 100%;
       background-repeat: no-repeat;
       background-size: 100% 100%;
       background-position: center center;
-    }
-    div:first-of-type{
-      background-image: url("img/ny (1).jpg");
-    }
-    div:nth-of-type(2){
-      background-image: url("img/chicago.jpg");
+      align-items:center;
+      color: white;
 
     }
-    div:last-of-type{
-      background-image: url("img/la.jpg");
-
+  div:first-of-type{
+    background-image: url("img/ny (1).jpg");
     }
-
+  div:nth-of-type(2){
+    background-image: url("img/chicago.jpg");
+    }
+  div:last-of-type{
+    background-image: url("img/la.jpg");
   }
+}
 }

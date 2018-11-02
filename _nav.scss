@@ -17,10 +17,11 @@ nav{
   opacity: 0.9;
 
   img{
-
-    margin-right:50vw;
+    margin-right: 48vw;
     width: 7vw;
     height: 4vw;
+    &:hover{
+      cursor: pointer;
   }
   span{
     align-self: center;
@@ -28,6 +29,11 @@ nav{
       width: 2vw;
       height: 2vw;
       margin-right: 2vw;
+      margin-left: 2vw;
+      &:hover{
+        cursor: pointer;
+        opacity: 0.9;
+      }
   }
 }
   ul{

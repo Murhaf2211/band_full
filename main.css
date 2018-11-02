@@ -24,6 +24,11 @@ nav img {
   height: 4vw;
 }
 
+nav img:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
 nav span {
   align-self: center;
 }

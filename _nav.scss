@@ -22,6 +22,8 @@ nav{
     height: 4vw;
     &:hover{
       cursor: pointer;
+      opacity: 0.9;
+    }
   }
   span{
     align-self: center;

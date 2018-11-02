@@ -4,20 +4,27 @@
 
 
   button {
-    background-color: inherit;
     color: white;
     border-style: hidden;
-    margin-top: 3.9;
-    width: 10%;
-    background-color: rgba(0, 0, 0, 0.83);
+    width: 5%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
 
+    &#right{
+      margin-left: 75vw;
+      margin-top: 25vw;
+    }
+    &#left{
+      margin-left: 20vw;
+      margin-top: 25vw;
+    }
 
     }
   div{
     display: flex;
     overflow: hidden;
     flex-shrink: 0;
-    width: 90%;
+    width: 100%;
     border-style: hidden;
 
     div{
@@ -32,6 +39,15 @@
       background-position: center center;
       align-items:center;
       color: white;
+      p{
+        margin-bottom: 4vw;
+        font-size: 1.5vw;
+      }
+      h3{
+        font-size: 2vw;
+        font-style: italic;
+        letter-spacing: 4px;
+      }
 
     }
   div:first-of-type{

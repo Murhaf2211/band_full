@@ -22,6 +22,7 @@ nav img {
   margin-right: 48vw;
   width: 7vw;
   height: 4vw;
+  border-radius: 2vw;
 }
 
 nav img:hover {
@@ -80,19 +81,28 @@ nav ul:hover {
 }
 
 #carousel button {
-  background-color: inherit;
   color: white;
   border-style: hidden;
-  margin-top: 3.9;
-  width: 10%;
-  background-color: rgba(0, 0, 0, 0.83);
+  width: 5%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+}
+
+#carousel button#right {
+  margin-left: 75vw;
+  margin-top: 25vw;
+}
+
+#carousel button#left {
+  margin-left: 20vw;
+  margin-top: 25vw;
 }
 
 #carousel div {
   display: flex;
   overflow: hidden;
   flex-shrink: 0;
-  width: 90%;
+  width: 100%;
   border-style: hidden;
 }
 
@@ -108,6 +118,17 @@ nav ul:hover {
   background-position: center center;
   align-items: center;
   color: white;
+}
+
+#carousel div div p {
+  margin-bottom: 4vw;
+  font-size: 1.5vw;
+}
+
+#carousel div div h3 {
+  font-size: 2vw;
+  font-style: italic;
+  letter-spacing: 4px;
 }
 
 #carousel div div:first-of-type {
@@ -170,7 +191,7 @@ nav ul:hover {
 #band div div img {
   width: 17vw;
   height: 20vw;
-  margin-bottom: 3vw;
+  margin-bottom: 4vw;
   border-radius: 12vw;
 }
 
@@ -186,18 +207,17 @@ nav ul:hover {
 }
 
 #tour {
-  margin-top: 6vw;
+  margin-top: 10vw;
   background: #2d2d30;
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   letter-spacing: 1px;
 }
 
 #tour h2 {
-  margin-top: 10vw;
+  margin-top: 7vw;
   letter-spacing: 8px;
   font-family: sans-serif;
 }
@@ -206,11 +226,31 @@ nav ul:hover {
   font-size: 1.3vw;
   font-style: italic;
   text-align: center;
+  margin-bottom: 2vw;
+}
+
+#tour ul {
+  width: 72%;
+  height: 10vw;
+  margin-right: 6vw;
+  margin-bottom: 4vw;
 }
 
 #tour ul li {
   list-style: none;
   background: white;
+  height: 30%;
+  color: grey;
+  padding: 0.5vw 1vw;
+  border-bottom: 1px solid lightgrey;
+  font-size: 1.5vw;
+}
+
+#tour ul li span {
+  color: white;
+  background-color: red;
+  margin-left: 2vw;
+  font-size: 1.2vw;
 }
 
 #tour div {
@@ -237,4 +277,7 @@ nav ul:hover {
 
 #tour div div button {
   margin-bottom: 2vw;
+  background-color: #2d2d30;
+  color: white;
+  padding: 1vw;
 }

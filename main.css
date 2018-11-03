@@ -281,3 +281,92 @@ nav ul:hover {
   color: white;
   padding: 1vw;
 }
+
+#contact {
+  margin-top: 4vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: grey;
+}
+
+#contact h3 {
+  font-size: 2.5vw;
+  letter-spacing: 10px;
+  color: #2d2d30;
+  font-family: sans-serif;
+}
+
+#contact p {
+  font-size: 2vw;
+  font-style: italic;
+}
+
+#contact div {
+  display: flex;
+  width: 75%;
+}
+
+#contact div div {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 25%;
+}
+
+#contact div div p {
+  font-style: normal;
+  font-size: 1.5vw;
+}
+
+#contact div div p img {
+  width: 20px;
+  height: 20px;
+}
+
+#contact div form {
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 1.5vw;
+  width: 75%;
+}
+
+#contact div form div {
+  flex-direction: row;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#contact div form div input {
+  width: 47%;
+  height: 3vw;
+  margin-bottom: 2vw;
+  padding-left: 2vw;
+}
+
+#contact div form input {
+  width: 100%;
+  height: 12vw;
+  padding-left: 2vw;
+}
+
+#contact div form button {
+  margin-top: 2vw;
+  margin-left: 49.5vw;
+  width: 6vw;
+  height: 3.5vw;
+  background: #2d2d30;
+  color: white;
+}
+
+#contact div form button:hover {
+  background: white;
+  color: #2d2d30;
+  border: 1px solid #2d2d30;
+}
+
+#blog {
+  text-align: center;
+}

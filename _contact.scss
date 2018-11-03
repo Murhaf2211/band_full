@@ -1,0 +1,75 @@
+#contact{
+  margin-top: 4vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color : grey;
+  h3{
+    font-size: 2.5vw;
+    letter-spacing: 10px;
+    color:#2d2d30;
+    font-family: sans-serif;
+  }
+  p{
+    font-size: 2vw;
+    font-style: italic;
+  }
+  div{
+    display: flex;
+    width : 75%;
+    div {
+      flex-direction: column;
+      align-items: flex-start;
+      width : 25%;
+      p{
+        font-style: normal;
+        font-size: 1.5vw;
+        img{
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+    form{
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 1.5vw;
+      width : 75%;
+      div{
+        flex-direction: row;
+        width : 100%;
+        align-items: flex-start;
+        justify-content: space-between;
+        input{
+          width: 47%;
+          height: 3vw;
+          margin-bottom: 2vw;
+          padding-left: 2vw;
+        }
+      }
+      input{
+        width : 100%;
+        height: 12vw;
+        padding-left: 2vw;
+      }
+      button{
+        margin-top: 2vw;
+        margin-left: 49.5vw;
+        width : 6vw;
+        height: 3.5vw;
+        background: #2d2d30;
+        color : white;
+        &:hover{
+          background: white;
+          color : #2d2d30;
+          border: 1px solid #2d2d30;
+        }
+      }
+    }
+  }
+}
+#blog{
+  text-align:center;
+}

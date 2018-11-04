@@ -72,4 +72,43 @@
 }
 #blog{
   text-align:center;
+  margin-top: 5vw;
+  margin-bottom: 7vw;
+  color: grey;
+
+  h3{
+    font-size: 2.5vw;
+    font-family: monospace;
+    letter-spacing: 7px;
+    color: #2d2d30;
+  }
+  ul{
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+    width: 25vw;
+    margin-left: 10vw;
+    margin-top: 3vw;
+    font-size: 1.5vw;
+  }
+  div{
+    display: flex;
+    margin-left: 7vw;
+
+    div{
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+      width: 100%;
+      display: none;
+      font-size: 1.5vw;
+      h2{
+        font-size: 2.5vw;
+        font-style: normal;
+      }
+    }
+    div:first-of-type{
+      display: block;
+    }
+  }
 }

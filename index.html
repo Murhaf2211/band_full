@@ -8,33 +8,37 @@
 </head>
 <body>
   <nav>
-    <img src="C:\Users\ferial\Desktop\fullband\img\logo.jpeg" >
-    <ul id="navList">
-      <li>HOME</li>
-      <li>BAND</li>
-      <li>TOUR</li>
-      <li>CONTACT</li>
-      <ul id="more">MORE
-        <li>Merchandise</li>
-        <li>Extras</li>
-        <li>Media</li>
+    <div>
+      <img src="C:\Users\ferial\Desktop\fullband\img\logo.jpeg" >
+      <ul id="navList">
+       <li class="navlist">HOME</li>
+       <li class="navlist">BAND</li>
+       <li class="navlist">TOUR</li>
+       <li class="navlist">CONTACT</li>
+       <li id="more">MORE</li>
       </ul>
-    </ul>
-    <span><img src="img\search-3-xxl.png"></span>
+      <span><img src="img\search-3-xxl.png"></span>
+    </div>
+    <div id="morelist">
+      <li>Merchandise</li>
+      <li>Extras</li>
+      <li>Media</li>
+    </div>
   </nav>
 
-  <section id="carousel">
+
+  <section id="carousel" class="sectionlist">
      <button id="left"><img src="img\back.png"></button>
      <div>
-       <div>
+       <div class="homeImg">
          <h3>New York</h3>
          <p>The atmosphere in New York is lorem ipsum.</p>
        </div>
-       <div>
+       <div class="homeImg">
          <h3>Chicago</h3>
          <p>Thank you, Chicago - A night we won't forget.</p>
        </div>
-       <div>
+       <div class="homeImg">
          <h3>L A</h3>
          <p>Even though the traffic was a mess,
           we had the best time playing at Venice Beach!</p>
@@ -43,7 +47,7 @@
      <button id="right"><img src="img\next (1).png"></button>
   </section>
 
-  <section id="band">
+  <section id="band" class="sectionlist">
     <h2>THE BAND</h2>
     <p>We love music!<br><br>
 We have created a fictional band website.
@@ -78,7 +82,7 @@ aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation
     </div>
   </section>
 
-  <section id="tour">
+  <section id="tour" class="sectionlist">
     <h2>TOUR DATES</h2>
     <p>Lorem ipsum we'll play you some music.<br><br>
   Remember to book your tickets!</p>
@@ -109,7 +113,7 @@ aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation
     </div>
   </section>
 
-  <section id="contact">
+  <section id="contact" class="sectionlist">
     <h3>Contact</h3>
     <p>We love our fans!</p>
     <div>
@@ -152,9 +156,9 @@ aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation
    </div>
   </section>
   <footer>
-  <img src="img\map.jpg" >
-  <span><img src="img\up-arrow.png" ></span>
-  <p>Bootstrap Theme Made By <a href="www.w3schools.com">www.w3schools.com</a></p>
+   <img src="img\map.jpg" >
+   <span><img src="img\up-arrow.png" ></span>
+   <p>Bootstrap Theme Made By <a href="www.w3schools.com">www.w3schools.com</a></p>
   </footer>
 
 

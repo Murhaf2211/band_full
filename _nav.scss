@@ -53,12 +53,17 @@ nav{
     }
     li{
       margin-right: 1.5vw;
-    }}
+    }
+    li#more:hover{
+      color: red;
+      font-size: 1.3vw;}
+  }
   }
 
   ul:hover{
     cursor: pointer;
     }
+
   div#morelist{
     flex-direction: column;
     position: absolute;
@@ -84,4 +89,8 @@ nav{
 .visible{
   display: flex !important;
   position: fixed !important;
+}
+.spyScroll{
+  color: red;
+  font-size: 1.3vw;
 }
